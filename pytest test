@@ -1,0 +1,16 @@
+# Calculadora
+print("Ingrese numero1")
+numero1 = float(input())
+print("Ingrese numero2")  
+numero2 = float(input())
+print("Ingrese operacion (+, -, *, /)")
+opcion = input().strip()
+
+if opcion == "+":
+        print("Resultado es", numero1 + numero2)
+elif opcion == "-":
+        print("Resultado es", numero1 - numero2)
+elif opcion == "*":
+        print("Resultado es", numero1 * numero2)
+elif opcion == "/":
+        print("Resultado es", numero1 / numero2)
